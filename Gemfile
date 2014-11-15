@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
-gem 'github-pages'
+gem 'jekyll'
+gem 'kramdown'
+gem 'jekyll-sass-converter'
 gem 'rouge'

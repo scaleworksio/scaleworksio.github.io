@@ -15,10 +15,12 @@ timezone: Europe/London
 future: true
 
 links:
-  - title: About Scaleworks
-    url: /about
+  - title: Writings
+    url: /writings
   - title: Speaking
     url: /speaking
+  - title: About Scaleworks
+    url: /about
 
 kramdown:
   auto_ids: true
@@ -30,4 +32,4 @@ kramdown:
 sass:
     style: :compressed
 
-permalink:   /:categories/:title
+permalink:   /:category/:title

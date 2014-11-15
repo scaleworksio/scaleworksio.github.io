@@ -3,27 +3,29 @@
 
   {% include head.html %}
 
-  <body>
+  <div id="bump">
+    <body class="">
 
-    {% include header.html %}
+      {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+      <div class="page-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
       </div>
+
+      {% include footer.html %}
+      {% include analytics.html %}
+
+      <!-- If they're out, get some from the cellar -->
+      <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+      <script src="{{ site.url }}/assets/js/retina.min.js"></script>
+
+      <!-- Custom JS -->
+      <script src="{{ site.url }}/assets/js/scripts.js"></script>
+
+
     </div>
-
-    {% include footer.html %}
-    {% include analytics.html %}
-
-    <!-- If they're out, get some from the cellar -->
-    <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-    <script src="{{ site.url }}/assets/js/retina.min.js"></script>
-
-    <!-- Custom JS -->
-    <script src="{{ site.url }}/assets/js/scripts.js"></script>
-
-
   </body>
 
 </html>
