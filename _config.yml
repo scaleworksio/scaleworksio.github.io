@@ -1,4 +1,4 @@
-title: Scaleworks, Ltd
+title: Scaleworks
 email: thom@scaleworks.io
 description: >
   Scaleworks is a Site Reliability Engineering consultancy. We have deep
@@ -19,8 +19,8 @@ links:
     url: /writings
   - title: Speaking
     url: /speaking
-  - title: About Scaleworks
-    url: /about
+  - title: Contact Us
+    url: /contact
 
 kramdown:
   auto_ids: true
