@@ -6,7 +6,7 @@ description: >
   agile infrastructures that deliver value.
 baseurl: ""
 url: "http://scaleworks.io"
-twitter_username: thommay
+twitter_username: scaleworks_io
 github_username:  thommay
 
 markdown: kramdown
@@ -32,4 +32,4 @@ kramdown:
 sass:
     style: :compressed
 
-permalink:   /:category/:title
+permalink:   /:categories/:year/:month/:day/:title.html
